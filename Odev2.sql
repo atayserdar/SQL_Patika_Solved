@@ -4,7 +4,7 @@
 
 Select *
 From film
-Where replacement_cost between 12.99 and 16.99
+Where (replacement_cost between 12.99 and 16.99) and replacement_cost != 16.99
 
 -- 2.actor tablosunda bulunan first_name ve last_name sütunlardaki verileri first_name 'Penelope' veya 'Nick' veya 'Ed' 
 -- değerleri olması koşuluyla sıralayınız. ( IN operatörünü kullanınız.)
